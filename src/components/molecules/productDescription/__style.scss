@@ -1,0 +1,50 @@
+> h1 {
+  color: #212121;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0px 10px 0px;
+  width: 100%;
+}
+.price-details {
+  margin-bottom: 30px;
+  > .net-price {
+    font-size: 28px;
+    display: inline-block;
+    color: #212121;
+    vertical-align: sub;
+    font-weight: bold;
+  }
+  > .gross-price {
+    font-size: 18px;
+    margin-left: 12px;
+    vertical-align: middle;
+    color: #878787;
+    text-decoration: line-through;
+    display: inline-block;
+  }
+  > .vat {
+    margin-left: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    vertical-align: middle;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+}
+.product-info {
+  color: #212121;
+  margin-bottom: 30px;
+  > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 5px;
+  }
+  > div {
+    font-weight: 400;
+    line-height: 1.29;
+    font-size: 14px;
+  }
+}

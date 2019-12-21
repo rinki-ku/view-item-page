@@ -1,0 +1,55 @@
+@import "../../../../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+@import "../../../../node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss";
+
+.image-gallery-image {
+  border: 1px solid #f0f0f0;
+}
+.image-gallery-thumbnail {
+  border: 3px solid #f0f0f0;
+  margin-right: 2px;
+  padding: 5px;
+}
+.image-gallery-thumbnail.active {
+  border: 3px solid #ff6600;
+}
+.image-gallery-thumbnails {
+  padding: 0;
+  margin-top: 5px;
+}
+.image-gallery-thumbnail-inner {
+  padding: 0px 5px;
+}
+
+.image-gallery-content.fullscreen {
+  .image-gallery-fullscreen-button,
+  .image-gallery-play-button {
+    top: 0px;
+    bottom: inherit;
+  }
+  .image-gallery-thumbnails-wrapper.bottom {
+    display: none;
+  }
+}
+.image-gallery-left-nav,
+.image-gallery-right-nav,
+.image-gallery-play-button,
+.image-gallery-fullscreen-button {
+  &::before {
+    color: #ff6600;
+  }
+  &:hover {
+    &::before {
+      color: #ff6600;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+  .left-section {
+    margin-bottom: 20px;
+  }
+}
