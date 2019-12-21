@@ -1,12 +1,26 @@
 # mobile.de Frontend Coding Challenge - View Item Page
 
+## start the project.
+
+open project folder and run:
+
+### `npm install` (To install the dependencies)
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+Used Atomic Design with react principals.
+
 ## Introduction
-
-Thank you for applying for a Front-end Engineer position at mobile.de, and congratulations on the previous
-successful steps. Prior to your in-person interviews, we kindly ask you to complete the following assignment.
-This exercise is designed to assess your development skills.
-
-We will evaluate the work you send us against the criteria explained below.
 
 Navigate to this URL:
 
@@ -56,5 +70,3 @@ Please use the following indexes for the different image sizes:
 9. Make the design look pretty. It does not have to look like the original mobile.de VIP, come up with your own design!
 10. Document your solution!
 11. Make your website work properly in the other three browsers, too!
-
-Good luck!
