@@ -4,7 +4,7 @@
 
 open project folder and run:
 
-### `npm install` (To install the dependencies)
+### `npm install` (To install the dependencies)
 
 ## Available Scripts
 
